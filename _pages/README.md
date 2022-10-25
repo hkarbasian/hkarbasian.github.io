@@ -1,3 +1,0 @@
-# hkarbasian.github.io
-
-hi
