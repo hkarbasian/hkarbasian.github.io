@@ -1,29 +1,80 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
 
-			{{ content }}
+	<html lang="en">
+	<head>
+	  <title>{{ page.title }}</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
 
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer>
-		</body>
+
+	<body>
+	<!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		  <div class="container">
+
+				<div class="navbar-header">
+				        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							  </button>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+						  <li><a href="index.html">Home</a></li>
+						  <li><a href="#">Projects</a></li>
+						  <li><a href="#publications">Publications</a></li>
+						  <li><a href="#">CV</a></li>
+				      </ul>
+				</div>
+
+		  </div>
+		</nav>
+
+	  <!-- Page Content -->
+		<div class="container">
+
+					{{ content }}
+
+		</div> <!-- Page Content -->
+		<!----------------------------------------------------------------->
+		<!-- Sidebar -->
+		<!----------------------------------------------------------------->
+		<div class="col-md-4">
+		    <img class="img-responsive" src="img/profile.jpg" alt="">
+		    <p>
+		    <div style="font-family: 'Arial', sans-serif; font-size: 30px;"><b>Hamid R. Karbasian</b></div><br>
+		    <div style="font-family: 'Arial', sans-serif; font-size: 17px;">
+		    <p>Postdoctoral Fellow<br>
+		    Department of Mechanical Engineering<br>
+		    Polytechnique Montreal<br>
+		    Canada<br>
+		    </p>
+		    </div>
+
+				<dd>Email: <a href="h.karbasian@utoronto.ca">h.karbasian@utoronto.ca</a></dd>
+		    <dd><a href="https://scholar.google.com/citations?user=jhahvIoAAAAJ&hl=en">Google Scholar</a></dd>
+		    <dd><a href="https:/www.linkedin.com/in/hamid-r-karbasian-0aa041111/">LinkedIn</a></dd>
+		    <dd><a href="https://twitter.com/hamid_karbasian">Twitter</a></dd>
+				<br>
+				<img class="img-responsive" src="img/poly_logo.png" alt="https://www.polymtl.ca/">
+		</div>
+		<!----------------------------------------------------------------->
+		<footer>
+				<ul>
+						<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+						<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+			</ul>
+		</footer>
+		<!----------------------------------------------------------------->
+	</body>
 	</html>
