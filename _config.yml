@@ -1,2 +1,5 @@
 name: "Hamid R. Karbasian"
 markdown: kramdown
+
+include:
+  - about.md
