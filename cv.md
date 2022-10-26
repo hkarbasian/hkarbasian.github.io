@@ -1,10 +1,5 @@
----
-layout: page
-title: "PAGE-TITLE"
-permalink: /
----
 
-
+![](/img/poly.jpg)
 
 
 Education
