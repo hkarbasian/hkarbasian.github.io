@@ -1,0 +1,48 @@
+---
+layout: default
+title: Projects
+---
+
+<!-- Main Image -->
+<img class="img-responsive" src="img/poly_logo.jpg" alt=""><br>
+
+
+<!-- Projects -->
+<h2 id="projects">Research highlights</h2>
+
+			<div style="margin-top:3%; text-align:justify; font-family: 'Arial', sans-serif; font-size: 17px;">
+						<h3>AI-powered & physics-based simulations</h3><br/>
+						<p>At the Fields Institute, my mission was to study complex, large-scale dynamical systems and predict the physical behaviour of these non-linear systems in different scenarios. Unlike conventional methods for solving PDEs in a discrete physical domain (computationally expensive), I employ Artificial Intelligence (AI) and Koopman formalism to solve PDEs in Hilbert space. My research helps develop robust and efficient solvers for prediction, failure assessment, design and optimization. In other words, I use AI-powered physics-based modelling for turbulence, thermofluid analysis, load prediction, structural/Aeroelasticity analysis, and many other physical phenomena.</p>
+						<img class="img-responsive" src="img/digitize.png" alt="">
+			</div>
+			<hr/>
+			<div style="margin-top:3%; text-align:justify; font-family: 'Arial', sans-serif; font-size: 17px;">
+						<h3>Multi-disciplinary Design Optimization (MDO)</h3><br/>
+						<p>Solving unsteady sensitivity equations is a challenging problem in large-scale constrained PDE optimization. With the advent of high-fidelity simulations and powerful computational resources, topology optimization struggles from the instability of Navier-Stokes equations. The Idea we are working on is to transfer the optimization framework from a physical 3D space to an unphysical space and solve optimization with lower computational costs with notable improvement in the stability of constrained PDEs. One example is drag minimization for NACA 0012 airfoil at AOA=25 degrees, where the airfoil experiences a massive flow separation. Animation (a) shows the initial case (NACA 0012 airfoil), and animation (b) presents the optimized shape. It is found that the optimization progress is successfully demonstrated with about 20% drag reduction.</p>
+						<div>
+							<div style="width:300px;"><iframe src="https://www.youtube.com/embed/MUNSaZpvlEE" frameborder="0" allowfullscreen></iframe>(a) Initial shape</div>
+							<div style="width:300px;"><iframe src="https://www.youtube.com/embed/hJX6fFwBsfw " frameborder="0" allowfullscreen></iframe>(b) Optimized shape</div>
+						</div>
+						<br/>
+			</div>
+
+			<br/>
+			<hr/>
+			<div style="margin-top:3%; text-align:justify; font-family: 'Arial', sans-serif; font-size: 17px;">
+						<h3>Uncertainty Quantification (UQ)</h3><br/>
+						<p>Sensitivity analysis becomes challenging for unsteady aerodynamic problems like the airfoil at high angles of attack exposed to massive flow separation. The reason is that Navier-Stokes equations are strongly non-linear PDEs, and sensitivity equations (either tangent or adjoint) diverge as the sensitivity solution advances in time. I could develop a framework compatible with any unsteady PDEs in a new approach. Using Machine Learning (ML), it is possible to train a surrogate model that is physically interpretative. This framework allows us to compute the sensitivity of the solution with respect to any design variable. This novel approach is applied to find the sensitivity of the drag coefficient with respect to the angle of attack at AOA=23 degrees and Re=1000. Animation (a) shows the velocity contours, and animation (b) shows the sensitivity solution.</p>
+						<img class="img-responsive" src="img/network.png" alt="">
+			</div>
+
+			<br/>
+			<hr/>
+			<div style="margin-top:3%; text-align:justify; font-family: 'Arial', sans-serif; font-size: 17px;">
+						<h3>Flow instability</h3><br/>
+						<p>The control strategy is a crucial matter in fluid dynamic problems. In the computational domain, the instability of flow may notably influence the instability of the numerical solver. This issue has prohibited developing control systems for strongly nonlinear systems for decades. One of my research studies is on stabilizing solutions for developing control models. As a case study, flow past a circular cylinder at Re=100 is considered. (a) The left-hand side figure shows dynamic responses of the reference model (red) in six sequential sub-spaces. The inlet flow is perturbed to figure out the influence of the Reynolds number on the flow field, hence the system's dynamic response. The uncontrolled (pink) system crashed without any tiny perturbation. On the other hand, the controlled system (blue) can track the dynamic response of the perturbed model, which indicates the controllability of the problem. (b) On the right-hand side, momentums in x and y directions are visualized, which indicates the remarked facts.</p>
+						<img class="img-responsive" src="img/instability.png" alt="">
+			</div>
+
+<!-- Projects -->
+
+<br/>
+<hr/>
