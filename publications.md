@@ -4,7 +4,7 @@
 <style>p{color:Black;text-align: justify; font-size: 17px;}</style>
 
 
-<p style="text-align:center"><img src="/img/congrats.jpg" alt="drawing" width="600"/></p>
+<p style="text-align:center"><img src="/img/jfmbook.png" alt="drawing" width="600"/></p>
 
 ## Book
 B.C. Vermeire, C.A. Pereira, **H.R. Karbasian**, [Computational Fluid Dynamics: An Open-Source Approach](https://users.encs.concordia.ca/~bvermeir/book/CFD\%20-\%20An\%20Open-Source\%20Approach.pdf), Concordia University Press, 2020.
